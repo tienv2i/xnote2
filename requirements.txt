@@ -1,0 +1,6 @@
+django<5.3
+python-decouple==3.8
+django-filter
+django-filer
+django-markdown
+djangorestframework
