@@ -1,4 +1,12 @@
 {% extends "onthi_gp/base.html" %}
 {% block content %}
-            index page <i class="fa fa-home"></i>
+    <ul>
+    {% for file in file_list %}
+        <li>
+            <a href="{% url 'onthi_gp:onthi' file.slug %}">
+                {{ file.title }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
 {% endblock %}
