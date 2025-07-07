@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'onthi_gp/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'onthi_gp/font-awesome.min.css' %}">
+    <script src="{% static 'onthi_gp/jquery.min.js' %}"></script>
+    <script src="{% static 'onthi_gp/popper.min.js' %}"></script>
+    <script src="{% static 'onthi_gp/bootstrap.min.js' %}"></script>
+</head>
+<body>
+    <div class="container mt-4">
+            {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

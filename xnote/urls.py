@@ -25,6 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('uploader/', include('uploader.urls')),
+    path('onthi_gp/', include('onthi_gp.urls')),
     path('', include('home.urls')),
 ]
 

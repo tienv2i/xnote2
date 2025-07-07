@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'filer',
     'home',
     'uploader',
+    'onthi_gp'
 ]
 
 MIDDLEWARE = [
